@@ -36,4 +36,8 @@ public class Application {
         System.out.println(2);
         System.out.println(1);
     }
+
+    public static void logic() {
+        System.out.println(1);
+    }
 }
