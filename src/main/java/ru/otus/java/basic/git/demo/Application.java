@@ -10,9 +10,8 @@ public class Application {
 
     public static void doSomething() {
         System.out.println("---");
-        System.out.println("---");
-        System.out.println("ВНЕСЕНА ОШИБКА!!!!");
-        System.out.println("---");
+        System.out.println("- -");
+        System.out.println("- -");
         System.out.println("---");
     }
 }
