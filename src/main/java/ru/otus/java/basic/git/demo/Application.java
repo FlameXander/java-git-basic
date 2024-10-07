@@ -19,9 +19,9 @@ public class Application {
         System.out.println("---");
     }
 
-    public static void saveToFile() {
-        try (FileOutputStream out = new FileOutputStream("1.txt")) {
-            out.write("Hello World".getBytes(StandardCharsets.UTF_8));
+    public static void saveToFile(String filename, String data) {
+        try (FileOutputStream out = new FileOutputStream(filename)) {
+            out.write(data.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             e.printStackTrace();
         }
